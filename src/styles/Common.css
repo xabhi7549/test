@@ -9,6 +9,7 @@
   .HeadingYellow{
     text-align: center;
     color:yellow;
+
   }
   .HeadingRed {
     text-align: center;
@@ -38,4 +39,40 @@
 }
 .Button.Black{
     background-color: black;
+}
+
+.Headder{
+
+  border-radius: 4px;
+  display: block;
+  letter-spacing: 0.5px;
+  position: relative;
+  border-color: #293829;
+  border-width: 2px 1px;
+  border-style: solid;
+  text-align:center;
+  color: #FFF;
+ margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding:10px;
+}
+
+.Headder.White{
+  background: white ;
+
+}
+.Headder.Black{
+  background:  black ;
+
+}
+.PizzaStyle {
+  height: 60px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .PizzaStyle {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
