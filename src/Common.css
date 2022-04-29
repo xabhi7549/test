@@ -1,0 +1,49 @@
+.HeadingBlue {
+    text-align: center;
+    color:blue;
+  }
+  .HeadingBlack {
+    text-align: center;
+    color:black;
+  }
+  .HeadingYellow{
+    text-align: center;
+    color:yellow;
+  }
+  .HeadingRed {
+    text-align: center;
+    color:red;
+  }
+  .Heading {
+    text-align: center;
+    color:blue;
+  }
+  .Heading {
+    text-align: center;
+    color:blue;
+  }
+  .Button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .Button.Red{
+    background-color: red;
+}
+.Button.Blue{
+    background-color: blue;
+}
+.Button.Yellow{
+    background-color: yellow;
+    color: black;
+
+}
+.Button.Black{
+    background-color: black;
+}
